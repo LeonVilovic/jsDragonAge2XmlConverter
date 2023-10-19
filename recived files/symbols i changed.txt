@@ -1,0 +1,26 @@
+left symbols
+
+&#13; 
+
+Changed symbols
+
+&apos;
+
+&lt;
+
+desc&gt;
+/desc&gt;
+
+&quot;
+
+/emp&gt;
+emp&gt;
+
+/attrib&gt;
+attrib&gt;
+
+/summary&gt;
+summary&gt;
+
+/act&gt;
+act&gt;
