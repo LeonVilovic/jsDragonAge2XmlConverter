@@ -40,10 +40,11 @@ async function main() {
   }
 
   for (let i = 0; i < txtData.length; i++) {
-
+    console.log(i);
     for (let j = 0; j < tlk.string.length; j++) {
       if(txtData[i].includes(':')){
-      // if (txtData[i].substring(txtData[i].indexOf(':')+1,txtData[i].length).includes(tlk.string[j]._)) {
+      //if (txtData[i].substring(txtData[i].indexOf(':')+1,txtData[i].length).includes(tlk.string[j]._)) {
+        //  if (txtData[i].substring(txtData[i].indexOf(':')+2,txtData[i].length)=== tlk.string[j]._) {
       if (txtData[i].substring(txtData[i].indexOf(':')+2,txtData[i].length).localeCompare( tlk.string[j]._)) {
           txtData[i] += ' ' + tlk.string[j].$.id // add id to the end of the line
         }
